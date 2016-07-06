@@ -3,7 +3,7 @@ namespace Album;
 
 use Zend\ModuleManager\Feature\ConfigProviderInterface;
 
-class Module extends ConfigProviderInterface
+class Module implements ConfigProviderInterface
 {
     public function getConfig()
     {
